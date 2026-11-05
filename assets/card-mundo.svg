@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="230" viewBox="0 0 580 230" role="img" aria-label="Comece pelo Mundo">
+  <title>Comece pelo Mundo — Site de turismo com globo 3D interativo renderizado no navegador.</title>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3ee0f7"/>
+      <stop offset="0.45" stop-color="#6aa8ff"/>
+      <stop offset="1" stop-color="#b79bff"/>
+    </linearGradient>
+    <radialGradient id="blobA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.075"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.025"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.16"/>
+    </linearGradient>
+  </defs>
+  <rect width="580" height="230" rx="24" fill="#0b0e15"/>
+  <ellipse cx="493" cy="0" rx="260" ry="150" fill="url(#blobA)"/>
+  <rect x="0" y="0" width="580" height="230" rx="24" fill="url(#glass)"/><rect x="0.5" y="0.5" width="579" height="229" rx="24" fill="none" stroke="url(#rim)" stroke-width="1"/>
+  <rect x="32" y="30" width="44" height="44" rx="13" fill="#2fd8f5" fill-opacity="0.12"/>
+  <g transform="translate(45 43)" fill="none" stroke="#2fd8f5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="8"/><path d="M1 9h16M9 1c2.5 2.6 3.6 5.2 3.6 8S11.5 14.4 9 17C6.5 14.4 5.4 11.8 5.4 9S6.5 3.6 9 1z"/></g>
+  <text x="548" y="57" text-anchor="end" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#8f97a6">Abrir ↗</text>
+  <text x="32" y="106" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#f2f5fa">Comece pelo Mundo</text>
+  <text x="32" y="136" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" fill="#8f97a6">Site de turismo com globo 3D interativo</text><text x="32" y="162" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" fill="#8f97a6">renderizado no navegador.</text>
+  <rect x="32" y="182" width="85" height="27" rx="8" fill="#ffffff" fill-opacity="0.05"/><text x="75" y="200" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'SF Mono', Menlo, monospace" font-size="13.5" fill="#9aa2b1">Three.js</text><rect x="123.2" y="182" width="60" height="27" rx="8" fill="#ffffff" fill-opacity="0.05"/><text x="153" y="200" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'SF Mono', Menlo, monospace" font-size="13.5" fill="#9aa2b1">WebGL</text><rect x="189.2" y="182" width="102" height="27" rx="8" fill="#ffffff" fill-opacity="0.05"/><text x="240" y="200" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'SF Mono', Menlo, monospace" font-size="13.5" fill="#9aa2b1">JavaScript</text>
+</svg>
